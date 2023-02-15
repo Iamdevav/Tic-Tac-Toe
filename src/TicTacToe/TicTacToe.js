@@ -34,7 +34,7 @@ const TicTacToe = () => {
     }
 
     const handleButtonClick = () => {
-        console.log('button clicked')
+
         setIsClick(true)
     }
 
@@ -81,7 +81,7 @@ const TicTacToe = () => {
             } else {
                 setScoreX(scoreX + 1)
             }
-            console.log(`${winnerPlayer} winner`)
+
             swal(`${winnerPlayer} winner`)
             setIsClick(false)
             setButtonName('Play again')
@@ -95,7 +95,7 @@ const TicTacToe = () => {
             } else {
                 setScoreX(scoreX + 1)
             }
-            console.log(`${winnerPlayer} winner`)
+
             swal(`${winnerPlayer} winner`)
             setIsClick(false)
             setButtonName('Play again')
@@ -103,7 +103,7 @@ const TicTacToe = () => {
         }
 
         if (checkTie() === true) {
-            console.log('Tie')
+
             swal(`Tie`)
             setIsClick(false)
             setButtonName('Play again')
@@ -117,7 +117,7 @@ const TicTacToe = () => {
             } else {
                 setScoreX(scoreX + 1)
             }
-            console.log(`${winnerPlayer} winner`)
+
             swal(`${winnerPlayer} winner`)
             setIsClick(false)
             setButtonName('Play again')
