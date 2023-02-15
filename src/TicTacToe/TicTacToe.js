@@ -84,6 +84,7 @@ const TicTacToe = () => {
 
             swal(`${winnerPlayer} winner`)
             setIsClick(false)
+            setPlayerTurn(false)
             setButtonName('Play again')
             setData(['', '', '', '', '', '', '', '', ''])
         }
@@ -98,6 +99,7 @@ const TicTacToe = () => {
 
             swal(`${winnerPlayer} winner`)
             setIsClick(false)
+            setPlayerTurn(false)
             setButtonName('Play again')
             setData(['', '', '', '', '', '', '', '', ''])
         }
@@ -106,6 +108,7 @@ const TicTacToe = () => {
 
             swal(`Tie`)
             setIsClick(false)
+            setPlayerTurn(false)
             setButtonName('Play again')
             setData(['', '', '', '', '', '', '', '', ''])
         }
@@ -120,6 +123,7 @@ const TicTacToe = () => {
 
             swal(`${winnerPlayer} winner`)
             setIsClick(false)
+            setPlayerTurn(false)
             setButtonName('Play again')
             setData(['', '', '', '', '', '', '', '', ''])
         }
